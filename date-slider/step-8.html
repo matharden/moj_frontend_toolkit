@@ -13,7 +13,7 @@
     .DateSlider-largeDates .DateSlider-days { width: 800px; }
     .DateSlider-smallDates { width: 700px; }
     .DateSlider-largeDates { width: 100px; }
-    .DateSlider-touch { width: 700px; background: rgba(0,255,0,.5); }
+    .DateSlider-touch { width: 700px; background: rgba(0,255,0,.5); cursor: pointer; }
     .DateSlider-touch .DateSlider-days { width: 1400px; height: 50px; opacity: .5; margin-top: 50px; }
 
     .DEMO--touch { position: static; }
@@ -24,7 +24,7 @@
 
 <body>
 
-<div class="DateSlider" data-sizeuponload="false" data-centreonday="false" data-removetouch="false">
+<div class="DateSlider" data-sizeuponload="false" data-centreonday="false" data-emulatetouch="true">
   <div class="DateSlider-sliders">
     <div class="DateSlider-smallDates scroll">
       <ol class="DateSlider-days">
